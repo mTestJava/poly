@@ -1,0 +1,17 @@
+package polymorph1;
+
+public class Cat extends Animal{
+
+    String name = "myCat" ;
+    public void printName() {
+        System.out.println(" Name of animal is " + name + " . Age is " + age);
+    }
+
+//    @Override
+//    public String toString() {
+//        return "Cat{" +
+//                "name='" + name + '\'' +
+//                ", age=" + age +
+//                '}';
+//    }
+}
