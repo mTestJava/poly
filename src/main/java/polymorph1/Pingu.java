@@ -2,8 +2,9 @@ package polymorph1;
 
 public class Pingu extends Animal {
 
-    String name = "myPingu" ;
+
     public void printName() {
+        name = "myPingu" ;
         System.out.println(" Name of animal is " + name + " . Age is " + age);
     }
 

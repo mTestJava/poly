@@ -21,7 +21,7 @@ public class ListGeneric {
 
     }
 
-    public static <T extends Comparable<T> > void sort_generics(T[] a)
+    public static <T extends Comparable<T>> void sort_generics(T[] a)
     {
 
         //As we are comparing the Non-primitive data types
@@ -46,7 +46,6 @@ public class ListGeneric {
             System.out.print(i + ", ");
         }
         System.out.println();
-
     }
 
     public static <T> void swap(int i, int j, T[] a)

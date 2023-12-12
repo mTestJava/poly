@@ -1,8 +1,8 @@
 package polymorph10;
 
 public class TryGeneric {
-    public static < E > void printArray(E[] elements) {
-        for ( E element : elements){
+    public static < H > void printArray(H[] elements) {
+        for ( H element : elements){
             System.out.println(element );
         }
         System.out.println();
