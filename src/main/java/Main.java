@@ -3,6 +3,8 @@
 import polymorph1.Animal;
 import polymorph1.Cat;
 import polymorph1.Pingu;
+import polymorph5.AnimalGeneric;
+import polymorph6.Animalgeneric;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -33,13 +35,26 @@ public class Main {
 //        p1.printName();
 //        p1.makeNoise();
 
-        List<Animal> l1 = new ArrayList<>();
-        l1.add(new Animal());
-        l1.add(new Cat());
-        l1.add(new Pingu());
+//        List<Animal> l1 = new ArrayList<>();
+//        l1.add(new Animal());
+//        l1.add(new Cat());
+//        l1.add(new Pingu());
+//
+//        l1.forEach(a->{
+//            System.out.println(a.toString());
+//        });
 
-        l1.forEach(a->{
-            System.out.println(a.toString());
-        });
+
+//        AnimalGeneric<Integer> intObj = new AnimalGeneric<>(5);
+//        System.out.println("Generic Class returns: " + intObj.getData());
+//        AnimalGeneric<String> strObj = new AnimalGeneric<>("Hello");
+//        System.out.println("Generic Class returns: " + strObj.getData());
+
+        Animalgeneric   gen = new Animalgeneric();
+        gen.printName("Java Programming");
+
+        // generics method working with integer
+        gen.printName(25);
+
     }
 }
